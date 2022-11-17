@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "env": {
+        "CARGO_MANIFEST_DIR": "${workspaceFolder}/assets",
+    },
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "build"
+                ],
+                "filter": {
+                    "name": "mytest",
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
