@@ -10,10 +10,11 @@
             "request": "launch",
             "cargo": {
                 "args": [
-                    "build"
+                    "build",
+                    "--package=bevy"
                 ],
                 "filter": {
-                    "name": "mytest",
+                    "name": "base_game",
                 }
             },
             "args": [],
